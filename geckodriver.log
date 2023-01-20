@@ -584,3 +584,137 @@ JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day
 JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
 1674229859605	Marionette	INFO	Stopped listening on port 63895
 Dynamically enable window occlusion 1
+1674248689142	geckodriver	INFO	Listening on 127.0.0.1:60281
+1674248692215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileVJjbMZ"
+1674248692659	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674248692664	Marionette	INFO	Listening on port 60303
+Read port: 60303
+WebDriver BiDi listening on ws://127.0.0.1:60282
+1674248692798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileVJjbMZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60282/devtools/browser/d0e4b5af-6eae-428b-b6cb-61d18144f63e
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249150263	geckodriver	INFO	Listening on 127.0.0.1:58411
+1674249153289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58412" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileAxWLnW"
+1674249153722	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249153727	Marionette	INFO	Listening on port 58433
+WebDriver BiDi listening on ws://127.0.0.1:58412
+Read port: 58433
+1674249154000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileAxWLnW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58412/devtools/browser/8f626707-312e-44a9-9304-b0fa26170081
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249171715	Marionette	INFO	Stopped listening on port 58433
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674249182529	geckodriver	INFO	Listening on 127.0.0.1:57826
+1674249185554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileecQToI"
+1674249185980	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249185984	Marionette	INFO	Listening on port 57848
+WebDriver BiDi listening on ws://127.0.0.1:57827
+Read port: 57848
+1674249186254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileecQToI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57827/devtools/browser/4c419fb7-0661-45b9-9c80-83a39ef038d9
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249331465	geckodriver	INFO	Listening on 127.0.0.1:59048
+1674249334494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilemUXv4N"
+1674249334931	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249334935	Marionette	INFO	Listening on port 59071
+Read port: 59071
+WebDriver BiDi listening on ws://127.0.0.1:59049
+1674249335069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilemUXv4N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59049/devtools/browser/816a72cf-ded2-42b9-a465-9f1f3a6313c6
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249352914	Marionette	INFO	Stopped listening on port 59071
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674249441276	geckodriver	INFO	Listening on 127.0.0.1:62854
+1674249444325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilebDLb4b"
+1674249444748	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249444752	Marionette	INFO	Listening on port 62872
+Read port: 62872
+WebDriver BiDi listening on ws://127.0.0.1:62855
+1674249444878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilebDLb4b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62855/devtools/browser/3d7a1ce0-ddb6-40f4-ab56-5a8c7ec70540
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249516949	geckodriver	INFO	Listening on 127.0.0.1:64194
+1674249519974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofile0rFbes"
+1674249520421	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249520425	Marionette	INFO	Listening on port 64215
+WebDriver BiDi listening on ws://127.0.0.1:64195
+Read port: 64215
+1674249520658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofile0rFbes\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64195/devtools/browser/f3685fb9-6b75-4784-95df-017b037741c9
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249625931	Marionette	INFO	Stopped listening on port 64215
+Dynamically enable window occlusion 1
+[Parent 16184, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674249887085	geckodriver	INFO	Listening on 127.0.0.1:58010
+1674249890125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilejoh8rE"
+1674249890490	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249890495	Marionette	INFO	Listening on port 58041
+Read port: 58041
+WebDriver BiDi listening on ws://127.0.0.1:58011
+1674249890636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilejoh8rE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58011/devtools/browser/804fee17-1fd9-4c5f-b9f9-9b2e285a6e59
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674249951350	geckodriver	INFO	Listening on 127.0.0.1:58288
+1674249954399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofile7KXAgn"
+1674249954787	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674249954793	Marionette	INFO	Listening on port 58306
+Read port: 58306
+WebDriver BiDi listening on ws://127.0.0.1:58289
+1674249954913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofile7KXAgn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58289/devtools/browser/8ded1cfb-27c7-4217-94fc-1b3ce3502613
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674250116850	geckodriver	INFO	Listening on 127.0.0.1:56865
+1674250119912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56866" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileMcYmmp"
+1674250120324	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674250120329	Marionette	INFO	Listening on port 56887
+Read port: 56887
+WebDriver BiDi listening on ws://127.0.0.1:56866
+1674250120459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileMcYmmp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56866/devtools/browser/1e74d7e1-da3a-4857-ba1c-1bb7931054ae
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674250137636	Marionette	INFO	Stopped listening on port 56887
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2224, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1674250489638	geckodriver	INFO	Listening on 127.0.0.1:54569
+1674250492697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54570" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilewBOJyd"
+1674250493113	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674250493119	Marionette	INFO	Listening on port 54591
+Read port: 54591
+WebDriver BiDi listening on ws://127.0.0.1:54570
+1674250493268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilewBOJyd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54570/devtools/browser/2d3740a4-1040-44e1-92d1-b0b25be21dca
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
