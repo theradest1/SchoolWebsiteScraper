@@ -4,7 +4,6 @@ from selenium import webdriver
 from datetime import datetime
 from selenium.webdriver.common.by import By
 import time
-import threading
 import asyncio
 
 #discord bot init
@@ -12,18 +11,24 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="@", intents = intents)
 
-async def dayChecker():
-    
-    print("hola")
-    elements, browser = scrape(schoolWebsite, "wcm-calendar-event-title")
-    print(schoolWebsite)
-    await bot.get_channel(1065857282040152114).send("Events for today:")
-    for element in elements:
-        await bot.get_channel(1065857282040152114).send(element.text)
-    browser.close()
+def nextDay():
+    asyncio.run(sendEventsToChannel(1065857282040152114, getEvents()))
 
 def getCurrentDate():
     return datetime.today().strftime('%Y-%m-%d').replace("-", "")
+
+def getEvents():
+    textList = []
+    elements, browser = scrape(schoolWebsite, "wcm-calendar-event-title")
+    for element in elements:
+        textList.append(element.text)
+    browser.close()
+    return textList
+
+async def sendEventsToChannel(channelID, events):
+    await bot.get_channel(channelID).send("Today's events:")
+    for event in events:
+        await bot.get_channel(channelID).send(event.text)
 
 def scrape(websiteURL, className):
     browser = webdriver.Firefox()
@@ -65,8 +70,7 @@ timeBetweenChecks = 1000
 timeToLoad = 5 #in seconds (higher is better but takes more time for testing)
 
 print("starting discord bot")
-botThread = threading.Thread(target=bot.run, args=(hiddenInfo[1],))
-botThread.start()
+bot.run(hiddenInfo[1])
 
 print("starting main loop")
 date = ""   
