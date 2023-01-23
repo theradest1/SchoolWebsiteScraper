@@ -718,3 +718,184 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:54570/devtools/browser/2d3740a4-1040-44e1-92d1-b0b25be21dca
 JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 240: unreachable code after return statement
 JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230120/day, line 243: unreachable code after return statement
+1674491640719	geckodriver	INFO	Listening on 127.0.0.1:52091
+1674491643742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileotOHIx"
+1674491644155	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674491644160	Marionette	INFO	Listening on port 52109
+Read port: 52109
+WebDriver BiDi listening on ws://127.0.0.1:52092
+1674491644355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileotOHIx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52092/devtools/browser/8117bb83-3074-4aa4-bd3f-aa6879875901
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/_/apps-viewer/_/js/k=apps-viewer.standalone.en_US.dN5VtlLPm3U.O/d=1/rs=AC2dHMKdKnyw_vEf3Z1PvMaOrzVrpgtvzw/m=main, line 99: uncaught exception: CustomError: Did not receive drive#about kind when fetching import map:undefined
+JavaScript error: https://www.gstatic.com/_/apps-viewer/_/js/k=apps-viewer.standalone.en_US.dN5VtlLPm3U.O/d=1/rs=AC2dHMKdKnyw_vEf3Z1PvMaOrzVrpgtvzw/m=main, line 99: uncaught exception: [object Object]
+1674491652346	Marionette	INFO	Stopped listening on port 52109
+Dynamically enable window occlusion 1
+1674491686081	geckodriver	INFO	Listening on 127.0.0.1:62087
+1674491689118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62088" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileIf4PcX"
+1674491689483	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674491689488	Marionette	INFO	Listening on port 65468
+WebDriver BiDi listening on ws://127.0.0.1:62088
+Read port: 65468
+1674491689797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileIf4PcX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62088/devtools/browser/986586e1-4f90-4e95-85c8-7d7c6fb3fde0
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674491694441	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674491694442	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674491697942	Marionette	INFO	Stopped listening on port 65468
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofileIf4PcX\protections.sqlite
+1674491722557	geckodriver	INFO	Listening on 127.0.0.1:63392
+1674491725610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilejkIYRs"
+1674491726056	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674491726061	Marionette	INFO	Listening on port 63411
+WebDriver BiDi listening on ws://127.0.0.1:63393
+Read port: 63411
+1674491726389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilejkIYRs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63393/devtools/browser/50b8b0b6-afce-4793-b99f-d184a7591421
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674491730977	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674491734571	Marionette	INFO	Stopped listening on port 63411
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofilejkIYRs\protections.sqlite
+1674491779535	geckodriver	INFO	Listening on 127.0.0.1:60569
+1674491782564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60570" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileD9ccvA"
+1674491782899	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674491782904	Marionette	INFO	Listening on port 59696
+WebDriver BiDi listening on ws://127.0.0.1:60570
+Read port: 59696
+1674491783188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileD9ccvA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60570/devtools/browser/db393553-f812-47b4-8ffb-29f2ae14f22a
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674491791108	Marionette	INFO	Stopped listening on port 59696
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofileD9ccvA\protections.sqlite
+1674492004960	geckodriver	INFO	Listening on 127.0.0.1:51878
+1674492008010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileQuiScp"
+1674492008370	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674492008375	Marionette	INFO	Listening on port 51895
+WebDriver BiDi listening on ws://127.0.0.1:51879
+Read port: 51895
+1674492008524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileQuiScp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51879/devtools/browser/bb2fa61c-2553-46a9-99c9-68cd57d36da9
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674492042023	Marionette	INFO	Stopped listening on port 51895
+Dynamically enable window occlusion 1
+1674493724164	geckodriver	INFO	Listening on 127.0.0.1:50681
+1674493727204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50682" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileHwwNDT"
+1674493727573	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674493727578	Marionette	INFO	Listening on port 50697
+Read port: 50697
+WebDriver BiDi listening on ws://127.0.0.1:50682
+1674493727730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileHwwNDT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50682/devtools/browser/f4bd0279-5b6a-4fbc-91ec-2dc40409a114
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674493760817	Marionette	INFO	Stopped listening on port 50697
+Dynamically enable window occlusion 1
+1674493787469	geckodriver	INFO	Listening on 127.0.0.1:49974
+1674493790496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileYTRz0v"
+1674493790862	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674493790867	Marionette	INFO	Listening on port 49990
+WebDriver BiDi listening on ws://127.0.0.1:49975
+Read port: 49990
+1674493791136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileYTRz0v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49975/devtools/browser/e7abc0bd-e886-46b4-993c-423a2d57d9dc
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674493799021	Marionette	INFO	Stopped listening on port 49990
+Dynamically enable window occlusion 1
+1674493864317	geckodriver	INFO	Listening on 127.0.0.1:65037
+1674493867344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65038" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileoTG3SK"
+1674493867695	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674493867700	Marionette	INFO	Listening on port 65056
+WebDriver BiDi listening on ws://127.0.0.1:65038
+Read port: 65056
+1674493867976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileoTG3SK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65038/devtools/browser/1a15ab96-785d-4be1-98bb-27597ad2b94a
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674493875693	Marionette	INFO	Stopped listening on port 65056
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofileoTG3SK\protections.sqlite
+1674493917843	geckodriver	INFO	Listening on 127.0.0.1:52792
+1674493920865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52793" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileHQhFsS"
+1674493921240	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674493921244	Marionette	INFO	Listening on port 52808
+WebDriver BiDi listening on ws://127.0.0.1:52793
+Read port: 52808
+1674493921390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileHQhFsS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52793/devtools/browser/1e05d587-5606-41a1-b57f-e2eb138bd48b
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674493929718	Marionette	INFO	Stopped listening on port 52808
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofileHQhFsS\protections.sqlite
+[Parent 620, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:583
+1674493969133	geckodriver	INFO	Listening on 127.0.0.1:60905
+1674493972188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60906" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileOpFuDS"
+1674493972568	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674493972572	Marionette	INFO	Listening on port 57946
+Read port: 57946
+WebDriver BiDi listening on ws://127.0.0.1:60906
+1674493972712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileOpFuDS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60906/devtools/browser/e474d283-0728-40bd-aebb-9b2dcbb060d2
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674493980528	Marionette	INFO	Stopped listening on port 57946
+Dynamically enable window occlusion 1
+1674494115097	geckodriver	INFO	Listening on 127.0.0.1:64372
+1674494118143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64373" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileL6MNVe"
+1674494118486	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674494118491	Marionette	INFO	Listening on port 64390
+WebDriver BiDi listening on ws://127.0.0.1:64373
+Read port: 64390
+1674494118766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofileL6MNVe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64373/devtools/browser/3478c0e3-27fb-4ea7-aac8-4aa15a0205c2
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674494126757	Marionette	INFO	Stopped listening on port 64390
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofileL6MNVe\protections.sqlite
+1674494143369	geckodriver	INFO	Listening on 127.0.0.1:64539
+1674494146384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64540" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilehPYjJ7"
+1674494146754	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674494146759	Marionette	INFO	Listening on port 64557
+WebDriver BiDi listening on ws://127.0.0.1:64540
+Read port: 64557
+1674494146979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lando\\AppData\\Local\\Temp\\rust_mozprofilehPYjJ7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64540/devtools/browser/1416d12e-fb73-4d53-8532-126632d8c0ed
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 240: unreachable code after return statement
+JavaScript warning: https://www.verona.k12.wi.us/Page/28#calendar16/20230123/day, line 243: unreachable code after return statement
+1674494155191	Marionette	INFO	Stopped listening on port 64557
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\lando\AppData\Local\Temp\rust_mozprofilehPYjJ7\protections.sqlite

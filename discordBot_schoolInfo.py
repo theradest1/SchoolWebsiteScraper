@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord.ext import tasks
 from selenium import webdriver
 from datetime import datetime
 from selenium.webdriver.common.by import By
@@ -7,13 +8,10 @@ import time
 import asyncio
 
 #discord bot init
-intents = discord.Intents.default()
-intents.message_content = True
-bot = commands.Bot(command_prefix="@", intents = intents)
-
-def nextDay():
-    asyncio.run(sendEventsToChannel(1065857282040152114, getEvents()))
-
+#intents = discord.Intents.default()
+#intents.message_content = True
+#bot = commands.Bot(command_prefix="@", intents = intents)
+    
 def getCurrentDate():
     return datetime.today().strftime('%Y-%m-%d').replace("-", "")
 
@@ -26,9 +24,9 @@ def getEvents():
     return textList
 
 async def sendEventsToChannel(channelID, events):
-    await bot.get_channel(channelID).send("Today's events:")
+    await client.get_channel(channelID).send("Today's events:")
     for event in events:
-        await bot.get_channel(channelID).send(event.text)
+        await client.get_channel(channelID).send(event)
 
 def scrape(websiteURL, className):
     browser = webdriver.Firefox()
@@ -41,24 +39,6 @@ def scrape(websiteURL, className):
         elements = []
     return elements, browser
 
-#@bot.event
-#async def on_message(message):
-#    global schoolWebsite
-#    if message.content == "events":
-#        elements, browser = await scrape(schoolWebsite, "wcm-calendar-event-title")
-#        #await message.channel.send("Events for today:")
-#        print("send: Events for today:")
-#        for element in elements:
-#            #await message.channel.send(element.text)
-#            print("send: " + element.text)
-#        browser.close()
-        
-@bot.command()
-async def die(ctx):
-    await ctx.send("Bye (:")
-    botThread._stop()
-    exit()
-
 #accessing hidden info that I don't want online
 hiddenInfoFile = open("hiddenInfo.txt")
 hiddenInfo = content = hiddenInfoFile.readlines()
@@ -66,18 +46,33 @@ hiddenInfo = content = hiddenInfoFile.readlines()
 #settings
 schoolWebsite = hiddenInfo[3] + getCurrentDate() + "/day"
 print(schoolWebsite)
-timeBetweenChecks = 1000
+timeBetweenChecks = 600
 timeToLoad = 5 #in seconds (higher is better but takes more time for testing)
+date = ""
 
-print("starting discord bot")
-bot.run(hiddenInfo[1])
+class MyClient(discord.Client):
+    async def setup_hook(self) -> None:
+        # start the task to run in the background
+        self.my_background_task.start()
 
-print("starting main loop")
-date = ""   
-while True:
-    print("testing day")
-    if date != getCurrentDate():
-        asyncio.run(nextDay())
-        date = getCurrentDate()
-    else:
-        date = getCurrentDate()
+    async def on_ready(self):
+        print(f'Logged in as {self.user} (ID: {self.user.id})')
+        print('------')
+
+    @tasks.loop(seconds=timeBetweenChecks)  # task runs every 60 seconds
+    async def my_background_task(self):
+        global date
+        if(date != getCurrentDate()):
+            print("Next day")
+            await sendEventsToChannel(1065857282040152114, getEvents())
+            date = getCurrentDate()
+        else:
+            print("Same day")
+            
+    @my_background_task.before_loop
+    async def before_my_task(self):
+        await self.wait_until_ready()  # wait until the bot logs in
+    
+
+client = MyClient(intents=discord.Intents.default())
+client.run(hiddenInfo[1])
