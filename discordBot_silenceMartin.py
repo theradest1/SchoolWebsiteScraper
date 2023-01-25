@@ -38,7 +38,5 @@ async def silenceMartin(ctx):
     else:
         await ctx.channel.send("The silence has been toggled on... thank god")
     silencingMartin = not silencingMartin
-async def test(ctx):
-    await ctx.channel.send("Skill issue :shrug:")
     
 bot.run(hiddenInfo[1])
