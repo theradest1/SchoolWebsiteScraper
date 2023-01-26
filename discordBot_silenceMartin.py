@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import random
+from discord.ext import tasks
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -8,8 +9,6 @@ bot = commands.Bot(command_prefix=">", intents = intents)
 
 hiddenInfoFile = open("hiddenInfo.txt")
 hiddenInfo = content = hiddenInfoFile.readlines()
-
-silencingMartin = False
 
 @bot.event
 async def on_ready():
@@ -28,15 +27,7 @@ async def on_message(message):
                 await message.delete()
                 await message.channel.send("Martin said something but I deleted it lol")
                 await message.channel.send("Skill issue :shrug:")
+                return
     await bot.process_commands(message)
-
-@bot.command()
-async def silenceMartin(ctx):
-    global silencingMartin
-    if silencingMartin:
-    	await ctx.channel.send('The silence has been toggled off')
-    else:
-        await ctx.channel.send("The silence has been toggled on... thank god")
-    silencingMartin = not silencingMartin
     
 bot.run(hiddenInfo[1])
