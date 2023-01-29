@@ -29,5 +29,4 @@ async def on_message(message):
                 await message.channel.send("Skill issue :shrug:")
                 return
     await bot.process_commands(message)
-    
 bot.run(hiddenInfo[1])
