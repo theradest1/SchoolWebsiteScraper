@@ -25,14 +25,14 @@ async def on_ready():
 async def on_message_delete(message):
     if bot.user.id != message.author.id:
         if message.author.id == rileyID:
-            await bot.get_channel(channelID).send(person + " deleted the message: \"" + message.content + "\"")
+            await bot.get_channel(channelID).send(person + " deleted the message: " + message.content + "")
 
 
 @bot.event
 async def on_message_edit(before, after):
     if bot.user.id != before.author.id:
         if before.author.id == rileyID:
-            await bot.get_channel(channelID).send(person + " edited the message: \"" + before.content + "\"")
+            await bot.get_channel(channelID).send(person + " edited the message: " + before.content + "")
 
 
 bot.run(hiddenInfo[1])
